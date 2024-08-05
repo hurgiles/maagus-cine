@@ -138,7 +138,7 @@ body {
 .social-media-icons {
     display: flex;
     justify-content: center;
-    gap: 1.5rem; /* Aumenta el espacio entre íconos */
+    gap: 5rem; /* Aumenta el espacio entre íconos */
     margin-top: 1rem;
 }
 
