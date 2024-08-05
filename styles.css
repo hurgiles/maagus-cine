@@ -114,3 +114,41 @@ body {
         font-size: 0.875rem;
     }
 }
+
+/* Asegúrate de que estos estilos estén en tu archivo CSS */
+
+#thank-you-message {
+    text-align: center;
+    color: #333;
+    margin-top: 2rem;
+}
+
+#thank-you-header {
+    font-size: 1.5rem;
+    /* Gradiente de colores para el texto */
+    background: linear-gradient(135deg, #00aaff, #00d4ff); /* Azul a celeste */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#thank-you-text {
+    font-size: 1rem;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem; /* Aumenta el espacio entre íconos */
+    margin-top: 1rem;
+}
+
+.social-media-icons a {
+    color: #333; /* Color de los íconos */
+    font-size: 2rem; /* Tamaño del ícono, ajusta según tu preferencia */
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-media-icons a:hover {
+    color: #F2A3B8; /* Cambia el color al pasar el mouse */
+    transform: scale(1.1); /* Agranda el ícono al pasar el mouse sobre él */
+}

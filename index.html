@@ -1,10 +1,10 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inspirada en Rapunzel</title>
     <link rel="stylesheet" href="styles.css"> <!-- Asegúrate de enlazar tu CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> <!-- Enlace a Font Awesome -->
 </head>
 <body>
     <div class="main-container">
@@ -15,19 +15,38 @@
     <div class="image-login-wrapper">
         <img src="https://i0.wp.com/www.sinembargo.mx/wp-content/uploads/2018/11/enredados-1.jpg?w=1100&quality=80&strip=all&ssl=1" alt="Imagen Inspiradora">
         <div class="login-form">
-            <h2>Registrate aqui</h2>
-            <form>
+            
+            <form id="registration-form">
+              <h2>Registrese Aquí</h2>
                 <label for="name">Nombre:</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name" placeholder="Nombre" required>
 
                 <label for="princess">Nombre de su princesa favorita:</label>
-                <input type="text" id="princess" name="princess" required>
+                <input type="text" id="princess" name="princess" placeholder="Princesa Favorita" required>
 
-                <p class="info">Una vez completado su login, de clic en el botón de abajo para empezar la magia y terminar su registro.</p>
+                <p class="info">Está a un solo click de culminar y empezar este maravilloso viaje.</p>
                 
-                <button type="submit">Bienvenida</button>
+                <button type="button" id="submit-button">Bienvenida</button>
             </form>
+            <div id="thank-you-message" style="display: none;">
+                <h2 id="thank-you-header"></h2>
+                <p id="thank-you-text"></p>
+                <p>Culaquier consulta, escribanos a las redes sociales de Maagus Cine.</p>
+                <div class="social-media-icons">
+                    <a href="https://m.me/hectoraugusto.urgiles" target="_blank" title="Facebook">
+                        <i class="fa-brands fa-facebook-messenger"></i>
+                    </a>
+                    <a href="https://wa.me/593989565628" target="_blank" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    <a href="https://instagram.com/direct/new?username=hector_urgiles" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <!-- Agrega más íconos según sea necesario -->
+                </div>
+            </div>
         </div>
     </div>
+
+    <script src="script.js"></script> <!-- Asegúrate de enlazar tu JavaScript -->
 </body>
 </html>
