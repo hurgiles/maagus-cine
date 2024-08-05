@@ -149,6 +149,6 @@ body {
 }
 
 .social-media-icons a:hover {
-    color: #F2A3B8; /* Cambia el color al pasar el mouse */
+    color: #00aae4; /* Cambia el color al pasar el mouse */
     transform: scale(1.1); /* Agranda el ícono al pasar el mouse sobre él */
 }
